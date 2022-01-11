@@ -1,0 +1,87 @@
+html,body {
+  margin:0;
+  padding:0;
+
+}
+
+body{
+background-color: #E47041;
+font-family: "Nunito", sans-serif;
+}
+
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+    max-width:100%;
+    padding-bottom: .5em;
+    
+    
+    
+  }
+
+  .centered {
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: coral;
+    font-weight: bolder;
+    
+  }
+
+  #basketballArena {
+    width: 100%;
+    height: 10%;
+    opacity: 75%;
+    
+  }
+  .container-fluid px-0{
+    padding: 20px;
+  }
+
+  .nav-link{
+    font-size: 1.5em;
+   
+  }
+
+
+
+ .navbar{
+    background-color: black;
+    color: #E47041;
+    
+  }
+#main-navbar{
+  color: #E47041;
+}
+ 
+  #main-navbar .nav-link:hover {
+    color:rebeccapurple ;
+  }
+
+ 
+
+
+.navbar.scrolled{
+  background-color: saddlebrown;
+  transition: background 350ms;
+
+}
+
+
+@media (max-width: 1200px)
+{
+body {
+    background-color: black;
+}
+.centered h1 {
+    color: orange;
+    font-weight: 100;
+    font-size: 3rem;
+}
+.centered span {
+    color: whitesmoke;
+}
+}
+
